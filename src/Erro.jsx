@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Erro = () => {
+const Erro = ({message}) => {
   return (
-    <div>Erro</div>
+    <h1 style={{color: 'red'}}>Erro: {message ?? ''}</h1>
   )
 }
 
