@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React, { children } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import {RouterProvider, createBrowserRouter} from'react-router-dom'
